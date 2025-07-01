@@ -1,4 +1,4 @@
-# DIIMPY - Dynamic Inoperability Input-Output Model for Python 
+# Dynamic Inoperability Input-Output Model for Python (DIIMPY)
 
 DIIMPY provides the Demand-Reduction and Recovery Dynamic Inoperability
 Input-Output Model (DIIM) for interdependent functions as described in
@@ -59,9 +59,11 @@ The source code can be obtained from
 These steps assumes that the source code of this repository has been cloned
 into a directory called `diimpy`.
 
-1. The program is installed by executing:
+The program is installed by executing:
 
         cd diimpy
         python -m pip install . --prefix=$HOME (%USERPROFILE% on Windows)
 
-All tests should pass, indicating that your platform is fully supported. 
+All tests should pass, indicating that your platform is fully supported: 
+
+        python -m unittest ./tests/test_case.py
