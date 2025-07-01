@@ -41,12 +41,7 @@ papers:
 
 DIIMPY is released under the [MIT](LICENSE) license.
 
-## Quick Start 
-
-### Requirements
-
-* [CMake](https://cmake.org) 3.13
-* [OpenBLAS](https://www.openblas.net/) (Intel MKL is recommended)
+## Quick Start
 
 ### Obtaining the Source Code
 
@@ -64,6 +59,6 @@ The program is installed by executing:
         cd diimpy
         python -m pip install . --prefix=$HOME (%USERPROFILE% on Windows)
 
-All tests should pass, indicating that your platform is fully supported: 
+All tests should pass, indicating that your platform is fully supported:
 
         python -m unittest ./tests/test_case.py
