@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diimpy"
+version = "2025.0.1"
+dependencies = ["numpy", "pandas", "openpyxl"]
+requires-python = ">= 3.12"
+authors = [{ name = "Stig Rune Sellevag", email = "stigrs@gmail.com" }]
+maintainers = [{ name = "Stig Rune Sellevag", email = "stigrs@gmail.com" }]
+description = "Dynamic Inoperability Input-Output Model"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python",
+]
+
+[project.urls]
+Repository = "https://github.com/stigrs/diimpy.git"
