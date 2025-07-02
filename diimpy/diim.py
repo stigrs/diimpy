@@ -7,6 +7,7 @@
 import math
 import numpy as np
 import pandas as pd
+
 from scipy.linalg import expm
 from diimpy.perturbation import Perturbation 
 from diimpy.mapping import map_to_interdep
@@ -230,6 +231,9 @@ class DIIM:
             self.q0[self.q0 < 0.0] = 0.0 # lower limit
         else:
             self.q0 = np.zeros(self.__len__())
+
+    def set_perturbation(self, pinfra, ptime=None, cvalue=None):
+        self.perturb.set_perturbation(pinfra, ptime, cvalue)
 
     def dependency(self):
         """Calculate dependency index."""

@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "diimpy"
 version = "2025.0.1"
-dependencies = ["numpy", "pandas", "openpyxl"]
+dependencies = ["numpy", "pandas", "matplotlib", "sns", "openpyxl"]
 requires-python = ">= 3.12"
 authors = [{ name = "Stig Rune Sellevag", email = "stigrs@gmail.com" }]
 maintainers = [{ name = "Stig Rune Sellevag", email = "stigrs@gmail.com" }]
