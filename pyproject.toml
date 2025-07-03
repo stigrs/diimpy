@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "diimpy"
 version = "2025.0.1"
 dependencies = ["numpy", "pandas", "matplotlib", "sns", "openpyxl"]
-requires-python = ">= 3.12"
+requires-python = ">= 3.9"
 authors = [{ name = "Stig Rune Sellevag", email = "stigrs@gmail.com" }]
 maintainers = [{ name = "Stig Rune Sellevag", email = "stigrs@gmail.com" }]
 description = "Dynamic Inoperability Input-Output Model"
