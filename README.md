@@ -61,4 +61,4 @@ The program is installed by executing:
 
 All tests should pass, indicating that your platform is fully supported:
 
-        python -m unittest ./tests/test_case.py
+        pytest
