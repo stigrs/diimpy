@@ -1,4 +1,5 @@
 # Dynamic Inoperability Input-Output Model for Python (DIIMPY)
+[![Python package](https://github.com/stigrs/diimpy/actions/workflows/python-package.yml/badge.svg?branch=main)](https://github.com/stigrs/diimpy/actions/workflows/python-package.yml)
 
 DIIMPY provides the Demand-Reduction and Recovery Dynamic Inoperability
 Input-Output Model (DIIM) for interdependent functions as described in
