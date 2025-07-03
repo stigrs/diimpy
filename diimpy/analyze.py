@@ -100,7 +100,7 @@ def analyze_inoperability(model, sheet_name="Static_inoperability"):
     return pd.DataFrame(res, columns=header)
 
 
-def analyze_dynamic(model, sheet_name="Dynamic_inoperability"):
+def analyze_dynamic_inoperability(model, sheet_name="Dynamic_inoperability"):
     """Analyze dynamic inoperabilities."""
     #
     # Output is written to existing datafile (xslx).
@@ -135,7 +135,7 @@ def analyze_dynamic(model, sheet_name="Dynamic_inoperability"):
     return pd.DataFrame(res, columns=header), qtot
 
 
-def analyze_recovery(model, sheet_name="Recovery"):
+def analyze_dynamic_recovery(model, sheet_name="Recovery"):
     """Analyze dynamic recovery."""
     #
     # Output is written to existing datafile (xslx).

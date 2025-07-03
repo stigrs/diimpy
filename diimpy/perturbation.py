@@ -24,8 +24,9 @@ class Perturbation:
         }
         if "Perturbation" in config:
             self.config.update(config["Perturbation"])
-            if len(self.config["pinfra"]) != len(self.config["cvalue"]):
-                raise Exception("bad sizes")
+            if self.config["pinfra"]:
+                if len(self.config["pinfra"]) != len(self.config["cvalue"]):
+                    raise Exception("bad sizes")
             self._init_perturbation()
 
     def _init_perturbation(self):

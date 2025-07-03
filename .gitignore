@@ -195,3 +195,10 @@ cython_debug/
 
 # Vscode
 .vscode
+
+# Temporaries
+~*
+.*~
+*.tmp 
+*.bak 
+*.log 
