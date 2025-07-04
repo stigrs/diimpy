@@ -9,6 +9,7 @@ import numpy as np
 import pandas as pd
 
 from scipy.linalg import expm
+from scipy.integrate import trapezoid
 from diimpy.perturbation import Perturbation 
 from diimpy.mapping import map_to_interdep
 
@@ -409,5 +410,5 @@ class DIIM:
         """Compute impact by integrating q(t)."""
         qtot = []
         for j in range(1, np.size(qt, 1)):
-            qtot.append(np.trapezoid(qt[:, j]))
+            qtot.append(trapezoid(qt[:, j]))
         return np.array(qtot)

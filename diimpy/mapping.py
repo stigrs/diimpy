@@ -32,6 +32,6 @@ def _map_to_interdep(consequence, scale):
     if scale == "4-point":
         a = 0.01
         b = 2.821928095
-    return a * np.pow(consequence, b)
+    return a * np.power(consequence, b)
 
 map_to_interdep = np.vectorize(_map_to_interdep)
