@@ -198,7 +198,7 @@ cython_debug/
 
 # Temporaries
 ~*
-.*~
+*.*~
 *.tmp 
 *.bak 
 *.log 
